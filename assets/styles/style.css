@@ -9,6 +9,42 @@ body {
   background-image: url('https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
   background-repeat: no-repeat;
   background-size: cover;
+  font-size: 100%;
+}
+
+h1.temp{
+    margin: 0;
+}
+
+h2 {
+    font-size:35px;
+}
+button {
+  margin: .5em;
+  border-radius: 50%;
+  border: none;
+  height: 46px;
+  width: 46px;
+  outline: none;
+  background: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: .5em 1em;
+  border-radius: 24px;
+  background-color: #7c7c7c2b;
+  color: white;
+  font-family: inherit;
+  font-size: 120%;
+  width: calc(100% - 80px);
+}
+
+button:hover {
+  background-color: #7c7c7c6b;
 }
 
 .card {
@@ -20,3 +56,10 @@ body {
   max-width: 420px;
   margin: 1em;
 }
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
